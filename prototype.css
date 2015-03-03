@@ -1,0 +1,62 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+#page, .panel, #menu, #menu > ul li, canvas {
+	outline: 1px solid black;
+}
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	height:100%;
+}
+
+#layout {
+	width:800px;
+	margin:0;
+	padding:0;
+}
+
+#page {
+	width:450px;
+	height:640px;
+	margin:10px auto;
+	padding:5px;
+}
+
+.panel {
+	width:200px;
+	height:200px;
+	margin:10px;
+	display:inline-block;
+	position:absolute;
+}
+
+#menu {
+	width:300px;
+	height:100%;
+	position:absolute;
+	right:0;
+	top:0;
+
+}
+
+#menu ul {
+	list-style-type:none;
+}
+
+#menu li {
+	display:block;
+	text-indent:0;
+	padding:5px;
+}
+
+a {
+	color:#000;
+	text-decoration:none;
+	display:block;
+}
